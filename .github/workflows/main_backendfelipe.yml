@@ -60,5 +60,5 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACE4B0973237430C9F60A09711429529 }}
-          app_build_command: "NODE_ENV=production yarn build"
+          startup_command: "NODE_ENV=production yarn build"
           app_location: "/" # App source code path
