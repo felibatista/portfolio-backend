@@ -1,5 +1,6 @@
 module.exports = ({ env }) => ({
   host: env("HOST", "0.0.0.0"),
+  url: "https://backendFelipe.azurewebsites.net",
   proxy: {
     enabled: true,
     ssl: true,
